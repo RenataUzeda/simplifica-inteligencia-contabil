@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simplifica Inteligência Contábil</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body class="pt-5">
+
+    <header class="azul-profundo-bg py-3 fixed-top">
+        <div class="container">
+            <nav
+                class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between align-items-center position-relative">
+                <!-- Logo / Título -->
+                <h1 class="h4 branco-fumaca-txt m-0 text-nowrap ms-1">
+                    <a class="navbar-brand branco-fumaca-txt" href="#">Simplifica Inteligência Contábil</a>
+                </h1>
+
+                <!-- Botão hamburguer (aparece no mobile) -->
+                <button class="navbar-toggler navbar-dark border-0 ms-auto position-absolute end-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-4"></span>
+                </button>
+
+                <!-- Menu de navegação -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto text-center flex-column flex-lg-row align-items-center">
+                        <li class="nav-item me-5">
+                            <a class="nav-link branco-fumaca-txt" href="#">Quem Somos</a>
+                        </li>
+                        <li class="nav-item dropdown me-5">
+                            <a class="nav-link dropdown-toggle branco-fumaca-txt" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Serviços
+                            </a>
+                            <ul class="dropdown-menu text-start" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Legalização de Empresas</a></li>
+                                <li><a class="dropdown-item" href="#">Planejamento Orçamentário e Tributário</a></li>
+                                <li><a class="dropdown-item" href="#">Terceirização de DP</a></li>
+                                <li><a class="dropdown-item" href="#">Declaração de Imposto de Renda</a></li>
+                                <li><a class="dropdown-item" href="#">Outros</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link branco-fumaca-txt me-5" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link branco-fumaca-txt me-5" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="m-3 my-5 ">
+        <div class="row"> <!--texto inicial-->
+            <div class="col-md-12 mx-auto mt-3 mt-md-4 text-center">
+                <p class="fs-4 fw-bold mt-0 azul-profundo-txt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsam, alias modi quaerat
+                    dolores animi consequatur deleniti qui unde quos, oferecendo sempre uma:
+                </p>
+                <h2 class="azul-profundo-bg text- rounded-3 text-white p-3 mt-4">ASSESSORIA COMPLETA EM CONTABILIDADE
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 justify-content-center gap-1 m-1"> <!--servicos-de-qualidade e orcamento-->
+            <div class="row row-cols-1 g-1 col-md-5 mt-5 servicos-de-qualidade p-4 lh-1 letter-spacing azul-medio-txt">
+                <!--servicos-de-qualidade-->
+                <h2 class="mb-4 text-center">Serviços de Qualidade</h2>
+                <p class="border border-4 rounded-3 shadow p-2 mb-1 bg-body">
+                    ✔️ Escritório de Contabilidade digital e especializada para reduzir a burocracia que tanto te
+                    atrapalha a empreender.
+                </p>
+                <p class="border border-4 rounded-3 shadow p-2 mb-1 bg-body">
+                    ✔️ Vai atuar com negócios digitais e online? Vamos reduzir seus impostos com segurança jurídica.
+                </p>
+                <p class="border border-4 rounded-3 shadow p-2 mb-1 bg-body">
+                    ✔️ Abertura de Empresa a partir de 48
+                    horas.*</p>
+                <p class="border border-4 rounded-3 shadow p-2 mb-1 bg-body">
+                    ✔️ Impostos, folha de pagamento, contabilidade completa, legalização empresarial e tudo que sua
+                    empresa precisa para se organizar e crescer.
+                </p>
+                <p class="border border-4 rounded-3 shadow p-2 mb-1 bg-body">
+                    ✔️ Planejamento tributário para a sua empresa se adequar no melhor regime de tributação, seja
+                    Simples Nacional, Lucro Presumido ou Lucro Real.
+                </p>
+                <div class="d-grid mx-auto p-4">
+                    <button class="btn btn-secondary p-2 p-sm-4 text-uppercase fw-bold" type="button"> <i
+                            class="bi bi-whatsapp"></i> Solicite sua proposta por WhatsApp</button>
+                </div>
+            </div>
+            <div class="row row-cols-1 container mt-5 m-0 col-md-5 azul-medio-bg p-4 orcamento"> <!--orçamento-->
+                <h2 class="text-center">Seu Orçamento em Poucos Cliques</h2>
+                <p class="text-center my-4">Preencha o formulário e fale conosco</p>
+                <form>
+                    <div id="step-1">
+                        <div class="mb-3">
+                            <label for="service" class="mb-0">Qual serviço você precisa?</label>
+                            <select class="form-select p-2" id="service" required>
+                                <option value="">Selecione...</option>
+                                <option value="abrir-empresa">✔️ Abrir empresa</option>
+                                <option value="mei-me">✔️ Mudar de MEI para ME</option>
+                                <option value="contador">✔️ Trocar de Contador</option>
+                                <option value="planejamento">✔️ Planejamento para Redução de Impostos</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="segment" class="mb-0">Qual o seu tipo de negócio?</label>
+                            <select class="form-select p-2" id="segment" required>
+                                <option value="">Selecione...</option>
+                                <option value="ecommerce">✔️ E-commerces</option>
+                                <option value="gamers">✔️ Gamers e Streamers</option>
+                                <option value="medicos">✔️ Médicos</option>
+                                <option value="engenheiros">✔️ Engenheiros</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="mb-0">Nome Completo</label>
+                            <input type="text" class="form-control p-2" id="name" placeholder="Digite seu nome"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="mb-0">E-mail</label>
+                            <input type="email" class="form-control p-2 mb-4" id="email" placeholder="Digite seu e-mail"
+                                required>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn mt-2 mx-auto btn-primary branco-fumaca-txt "
+                                onclick="nextStep()">Próximo</button>
+
+                        </div>
+                    </div>
+
+                    <div id="step-2" style="display: none;">
+                        <div class="mb-3">
+                            <label for="whatsapp" class="mb-0">WhatsApp</label>
+                            <input type="tel" class="form-control p-2" id="whatsapp" placeholder="Digite seu WhatsApp"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="mb-0">Mensagem</label>
+                            <textarea class="form-control p-2  mb-4" id="message" rows="7"
+                                placeholder="Descreva sua necessidade"></textarea>
+                        </div>
+
+                        <button type="button" class="btn btn-primary mt-2 ms-2 branco-fumaca-txt"
+                            onclick="previousStep()">Anterior</button>
+                        <button type="submit" class="btn btn-secondary mt-2 me-2 float-end">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 azul-profundo-bg py-3 px-2 px-sm-5 mx-auto"> <!--cards serviços-->
+        <div class="col">
+            <div class="card h-100 text-center rounded-4">
+                <i class="bi bi-diagram-3-fill icone-card "></i>
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase fs-4 text-black">Card title</h3>
+                    <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium debitis.. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum quod. Temporibus quod
+                        odio id nisi, rerum a provident?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center rounded-4" style="background-color: #e1f1ff;">
+                <i class="bi bi-diagram-3-fill icone-card "></i>
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase fs-4 text-black">Card title</h3>
+                    <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium debitis.. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum quod. Temporibus quod
+                        odio id nisi, rerum a provident?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center rounded-4">
+                <i class="bi bi-diagram-3-fill icone-card "></i>
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase fs-4 text-black">Card title</h3>
+                    <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium debitis.. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum quod. Temporibus quod
+                        odio id nisi, rerum a provident?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center rounded-4">
+                <i class="bi bi-diagram-3-fill icone-card "></i>
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase fs-4 text-black">Card title</h3>
+                    <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium debitis.. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum quod. Temporibus quod
+                        odio id nisi, rerum a provident?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center rounded-4" style="background-color: #e1f1ff;">
+                <i class="bi bi-diagram-3-fill icone-card"></i>
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase fs-4 text-black">Card title</h3>
+                    <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium debitis.. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum quod. Temporibus quod
+                        odio id nisi, rerum a provident?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center rounded-4">
+                <i class="bi bi-diagram-3-fill icone-card "></i>
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase fs-4 text-black">Card title</h3>
+                    <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium debitis.. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum quod. Temporibus quod
+                        odio id nisi, rerum a provident?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-grid mx-auto col-md-5 p-4">
+            <button class="btn btn-secondary p-2 p-sm-4 text-uppercase fw-bold " type="button"> <i
+                    class="bi bi-whatsapp"></i> Solicite sua proposta por WhatsApp</button>
+        </div>
+    </div>
+
+    <!--seção contabilidade digital-->
+
+    <div class="row sombra-baixo px-2 px-sm-5">
+
+        <h2 class="col-md-12 mx-auto text-center azul-profundo-txt p-2 mt-3 mt-sm-5 mb-sm-4">CONTABILIDADE PARA
+            EMPREENDEDOR DIGITAL</h2>
+        <h3 class="col-11 mx-auto text-center fs-3 fw-normal p-2 azul-profundo-txt lh-1 mb-2">
+            Na Simplifica Inteligência Contábil o foco é otimizar seu tempo com serviços de qualidade para ajudar você a
+            ter sucesso em seu negócio.
+        </h3>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-3 pt-0 mx-auto mt-0"> <!--cards serviços digital-->
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4 ">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">
+                        <p class="card-text fs-5 text-black-50">TLorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse accusantium
+                            debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat dolorum
+                            quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center rounded-3 border-0">
+                    <i class="bi bi-diagram-3 icone-card"></i>
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase fs-4">Card title</h3>
+                        <p class="card-text fs-5 text-black-50 pt-3">TLorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Suscipit, qui perferendis. Ducimus est quaerat, cum minima qui esse
+                            accusantium debitis.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellat
+                            dolorum quod. Temporibus quod odio id nisi, rerum a provident?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-grid mx-auto col-md-5 p-4">
+                <button class="btn btn-secondary p-2 p-sm-4 text-uppercase fw-bold " type="button"> <i
+                        class="bi bi-whatsapp"></i> Solicite sua proposta por WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Imagem + texto-->
+    <div
+        class="branco-fumaca-bg py-2 py-sm-4 px-2 px-sm-4 my-5 mx-auto cartaz-jornal d-flex align-items-center text-center">
+        <div class="order-1 mb-sm-3">
+            <h2 class="fs-3 py-2 px-1  ">Que tal contratar uma contabilidade especializada no seu ramo de atuação?</h2>
+            <p class="h5 py-2 px-2 pt-sm-2 pb-sm-3 mb-sm-3">Dê a sua empresa a regularização que ela precisa a fim de
+                proteger seus bens, aumentar sua credibilidade no mercado ou até otimizar seus impostos.</p>
+            <a href="#" class="btn btn-primary p-3 px-sm-5 my-2 order-3 order-sm-2  d-none d-sm-inline">Está pronto para
+                começar? Clique aqui.</a>
+        </div>
+        <div class="order-2 order-md-3 mt-2 mt-sm-0">
+            <img src="/img/imagem-vetorial.webp" class="img-card mt-2"
+                alt="imagem de cliente cumprimentando seu Contador">
+            <a href="#" class="btn btn-primary py-3 px-3 px-sm-5 mb-2 order-3 order-sm-2 mt-4 d-sm-none">Está pronto
+                para começar? Clique aqui.</a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark branco-fumaca-txt py-3 text-center">
+        <p>&copy; 2025 Simplifica Inteligência Contábil - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Link para o JavaScript do Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
