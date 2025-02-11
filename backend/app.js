@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, '../frontend')));  // Serve arquivos
 
 // Rota para a página de login
 app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/pages', 'login.html'));  // Caminho correto para o login.html
+    res.sendFile(path.join(__dirname, '../frontend/pages/login.html'));  // Caminho correto para o login.html
 });
 
 // Inicia o servidor
